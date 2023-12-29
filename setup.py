@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "etl = etl.main:cli",
+            "etl = etl:cli",
         ],
     },
 )
