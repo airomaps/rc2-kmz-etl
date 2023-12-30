@@ -10,6 +10,10 @@ install
 
 ## Usage
 
+Below are some example commands. See `etl --help` for more information.
+
 ```shell
-etl extract [input_path] [output_path]
+etl extract example.kmz
+etl transform author example.kmz airomaps
+etl transform time example.kmz
 ```
